@@ -84,7 +84,7 @@ class SignUpForm extends StatelessWidget {
         ),
         TextFieldLabel(
           textController:
-          authController.email..text = "karangiri121@gmail.com",
+          authController.email..text = userData.userEmail,
           labelName: "Email address",
           textColor: Color(0xff325158),
           enable: false,
